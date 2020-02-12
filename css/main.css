@@ -287,8 +287,16 @@ input[type=submit]:hover{
   position:relative;
   transform: translate(-50%,0);
   left:50%;
-
 }
+
+.cards{
+  padding-bottom: 0.2rem;
+}
+
+.cards:hover{
+  border-bottom: solid black 1.25px;
+}
+
 #product{
 width:50%;
   padding-top: 1.5rem;
@@ -396,12 +404,15 @@ padding-bottom: 0.5em;
   text-decoration: none;
   font-weight:normal;
   color:black;
-  line-height: 30px;
+  /* line-height: 30px; */
+  margin-bottom: 0.5rem;
 text-align: left;
 }
 
 .sideNav a:hover{
-  font-weight: bold;
+  /* font-weight: bold; */
+  padding-bottom:0.1rem;
+  border-bottom: solid grey 0.5px;
 }
 
 .wholeList{
