@@ -1,0 +1,95 @@
+@font-face {
+  font-family:bolded;
+  src: url("../fonts/{Colophon} Aperçu Medium Typeface.otf");
+}
+
+@font-face {
+  font-family:bold;
+  src: url("../fonts/{Colophon} Aperçu Bold Typeface.otf");
+}
+@font-face {
+  font-family:graceCo;
+  src:url("../fonts/Butler.otf");
+}
+@font-face {
+font-family:bodyFont;
+src:url("../fonts/{Colophon} Aperçu Light Typeface.otf");
+}
+
+@font-face {
+font-family:mono;
+src:url("../fonts/{Colophon} Aperçu Mono Typeface.otf");
+}
+
+body {
+  font-family:bodyFont;
+
+}
+
+/* company name */
+h1{
+  font-family: mono;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+
+h2, h3,h4{
+text-decoration: none;
+font-weight: normal;
+  letter-spacing: 1px;
+}
+/* headers */
+h2 {
+  font-family: bold;
+  /* margin-left: 2rem; */
+
+}
+
+/* section headings */
+h3 {
+  font-family: bolded;
+}
+
+h4 {
+  font-size: 14px;
+margin-top:0.5em;
+
+}
+
+/* PARAGRAPH STYLING */
+p {
+  font-size: 12px;
+  line-height:15px;
+  letter-spacing: 0.5px;
+  /* margin-top: 0; */
+  margin-right:1rem;
+  /* width:50%; */
+}
+
+#para{
+
+  margin:1rem;
+  width:50%;
+}
+#logo{
+  font-family: graceCo;
+  padding-left: 1rem;
+  /* text-align: center; */
+}
+
+br{
+  line-height: 20px;
+}
+
+p a{
+
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(53,50,48);
+}
+span.price{
+  float:right;
+  font-size:14px;
+}

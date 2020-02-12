@@ -1,0 +1,389 @@
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html{
+background-color: white;
+}
+
+.element {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border: 2px solid black;
+  margin: 2rem;
+}
+/* for styleguide nav */
+#mainH{
+  display:inline-block;
+  align-items: baseline;
+
+  margin-bottom: 2rem;
+}
+
+#main a {
+border: 0.5px solid;
+padding:0.5em 0.5em  0.5em 0.5em;
+}
+
+#navigation{
+  padding-left: 1rem;
+
+}
+
+/* company nav */
+header{
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+#icon{
+background-image: url("../img/Asset9.png");
+background-size:contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 30px;
+height: 30px;
+/* border: 1px solid black; */
+}
+
+nav{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+
+}
+
+nav a{
+
+  font-family:bodyFont;
+  font-size:15px;
+  /* text-transform: lowercase; */
+  margin-right: 2em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition:0.3s;
+
+}
+
+nav a:hover, nav a:focus {
+ opacity:0.3;
+}
+
+/* In-text link styling */
+.text-link{
+font-family: bolded;
+border-bottom: 2px solid;
+ color:black;
+ text-decoration: none;
+ padding-bottom: 2px;
+ transition: 0.5s;
+
+}
+
+.text-link:hover, .text-link:focus{
+  color: rgb(55,98,48);
+
+  border-bottom: 2px solid;
+
+
+}
+
+/* Styling for the Buttons */
+.button-nav {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  border: 1.5px solid rgb(55,98,48);
+  background-color: rgb(55,98,48);
+
+  text-decoration: none;
+  transition-duration: 0.6s;
+
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(28,51,23);
+  color:white;
+  border: 1.5px solid rgb(28,51,23);
+}
+button{
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 2rem;
+
+  /* background-color:  */
+  color: white;
+  border: 1.5px solid rgb(55,98,48);
+  background-color: rgb(55,98,48);
+  font-size: 16px;
+  font-family: bodyFont;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+
+button:hover, .button-nav:focus {
+
+  background-color: rgb(28,51,23);
+  color:white;
+  border: 1.5px solid rgb(28,52,23);
+  outline:none;
+}
+
+
+/* IMAGE STYLING */
+img{
+  width:100%;
+}
+.imagehover{
+  opacity:1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width:50%;
+}
+.imagehover:hover, .imagehover:focus{
+  opacity: 0.3;
+
+}
+
+
+/* FORM STYLING */
+textarea{
+  padding:1em;
+  width: 50%;
+  border: 1px solid rgb(53,50,48);
+  background-color: transparent;
+  width:50%;
+  height:200px;
+}
+textarea:focus{
+outline:none;
+}
+
+label{
+  font-family: bolded;
+  /* text-transform:uppercase; */
+  font-size: 14px;
+}
+
+input{
+  margin-top: 1em;
+}
+
+ol{
+  line-height: 25px;
+}
+
+input[type=text]{
+  display:inline-block;
+  padding:1em;
+  width:100%;
+  margin-bottom:1rem;
+  border: 1px solid rgb(53,50,48);
+  background-color: transparent;
+  box-sizing: border-box;
+}
+input[type=text]:hover{
+  border:1.5px solid;
+}
+input[type=text]:focus{
+  outline: none;
+
+}
+
+ #form-headline{
+  width:50%;
+}
+
+input[type=submit]{
+  margin-top: 2em;
+  padding: 0.75rem;
+  color: rgb(216,116,39);
+  border: 1px solid rgb(216,116,39);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+input[type=submit]:hover{
+  background-color: rgb(216,116,39);
+  color:white;
+}
+
+
+/* PRODUCT DETAILED */
+.card{
+  display:flex;
+  padding:1rem;
+  margin-top:2rem;
+  width:65%;
+  border:1px solid;
+  /* justify-content: center; */
+  position:relative;
+  transform: translate(-50%,0);
+  left:50%;
+
+}
+#product{
+width:50%;
+  padding-top: 1.5rem;
+  padding-right: 1em;
+
+  margin-right: 1em;
+}
+
+#info{
+width:50%;
+}
+
+#add{
+  margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width:100%;
+  align-content:center;
+}
+
+.price{
+  margin-top: 0;
+  margin-bottom:1em;
+  font-family: bolded;
+  font-size: 12px;
+  line-height:0;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+
+/* Checkout and Payment */
+
+.cart{
+  border-radius: 3px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+#checkout{
+  margin-top: 1rem;
+  width: 100%;
+}
+#total{
+  font-size: 14px;
+  font-weight: bold;
+}
+#head2{
+  margin-left:0;
+}
+#address, #cardinfo{
+  margin-right: 2rem;
+}
+.payment_form .payment{
+  width: 100%;
+  margin-right:2rem;
+  /* flex-grow:1; */
+}
+
+.payment_form{
+  display:flex;
+}
+
+/* .product{
+  width:50%;
+} */
+
+
+/* Multiple Product Listing */
+.listing{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+align-items: center;
+grid-column-gap: 1.5rem;
+grid-row-gap: 2rem;
+width: 75%;
+padding-left:2rem;
+padding-right:2rem;
+margin-top:2rem;
+
+}
+
+.shopAll{
+  /* margin-left:10rem; */
+  margin-bottom:0;
+}
+ .sideNav{
+   margin-top: 3rem;
+  float: right;
+
+}
+
+.shopTop{
+  font-size: 16px;
+padding-bottom: 0.5em;
+  border-bottom: 1px solid;
+  font-weight: bold;
+}
+.sideNav a {
+  display:block;
+  text-decoration: none;
+  font-weight:normal;
+  color:black;
+  line-height: 30px;
+text-align: left;
+}
+
+.sideNav a:hover{
+  font-weight: bold;
+}
+
+.wholeList{
+display:inline-flex;
+justify-content: space-around;
+padding-left: 2rem;
+}
+
+@media screen and (max-width:35rem){
+  .listing{
+    grid-template-columns:1fr;
+  }
+
+  .sideNav{
+    display:none;
+  }
+}
+
+
+/* buttons for directing to other webpages */
+.direct {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  /* background-color:  */
+  color: black;
+  border: 1.5px solid black;
+  background-color: transparent;
+
+  text-decoration: none;
+  transition-duration: 0.6s;
+
+}
+
+.direct:hover, .direct:focus {
+  background-color: black;
+  color:white;
+
+}
