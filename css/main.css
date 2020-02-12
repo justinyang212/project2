@@ -10,7 +10,7 @@ background-color: white;
 .element {
   padding-left: 1rem;
   padding-bottom: 1rem;
-  border: 2px solid black;
+  border: 1px solid black;
   margin: 2rem;
 }
 /* for styleguide nav */
@@ -23,7 +23,7 @@ background-color: white;
 
 #main a {
 /* border: 0.5px solid; */
-padding:0.5em 0.5em  0.5em 0.5em;
+padding:0.5em 0em  0.2em 0em;
 }
 
 #navigation{
@@ -88,8 +88,8 @@ nav a:hover, nav a:focus {
 
 /* In-text link styling */
 .text-link{
-font-family: bolded;
-border-bottom: 2px solid;
+font-family: bodyFont;
+border-bottom: 1px solid;
  color:black;
  text-decoration: none;
  padding-bottom: 2px;
@@ -100,7 +100,7 @@ border-bottom: 2px solid;
 .text-link:hover, .text-link:focus{
   color: rgb(55,98,48);
 
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
 
 
 }
@@ -108,10 +108,10 @@ border-bottom: 2px solid;
 /* Styling for the Buttons */
 .button-nav {
   display: inline-block;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   color: white;
   border: 1.5px solid rgb(0,78,26);
   background-color: rgb(0,78,26);
@@ -128,10 +128,10 @@ border-bottom: 2px solid;
 }
 button{
   display: inline-block;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   margin-right: 2rem;
 
   /* background-color:  */
