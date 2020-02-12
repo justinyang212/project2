@@ -1,24 +1,15 @@
 @font-face {
   font-family:bolded;
-  src: url("../fonts/{Colophon} Aperçu Medium Typeface.otf");
+  src: url("../fonts/Dia-Bold.otf");
 }
 
 @font-face {
-  font-family:bold;
-  src: url("../fonts/{Colophon} Aperçu Bold Typeface.otf");
-}
-@font-face {
   font-family:graceCo;
-  src:url("../fonts/Butler.otf");
+  src:url("../fonts/MADE Mirage Regular PERSONAL USE.otf");
 }
 @font-face {
 font-family:bodyFont;
-src:url("../fonts/{Colophon} Aperçu Light Typeface.otf");
-}
-
-@font-face {
-font-family:mono;
-src:url("../fonts/{Colophon} Aperçu Mono Typeface.otf");
+src:url("../fonts/Dia-Regular.otf");
 }
 
 body {
