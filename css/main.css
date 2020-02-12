@@ -48,18 +48,61 @@ height: 30px;
 /* border: 1px solid black; */
 }
 
-.cleanser{
-  background-image: url("../img/cleanser1.jpg");
+.imagelisting{
   background-size:contain;
   background-repeat: no-repeat;
-  transition: 0.2s;
+  transition: 0.3s;
   /* background-position: center; */
-  width:30vw;
+  width:22.5vw;
   height:30vw;
+}
+
+.cleanser{
+  background-image: url("../img/cleanser1.jpg");
 }
 
 .cleanser:hover{
 background-image: url("../img/cleanser2.jpg");
+}
+
+.creamskin{
+  background-image: url("../img/creamskin1.jpg");
+}
+
+.creamskin:hover{
+  background-image: url("../img/creamskin2.jpg");
+}
+
+.klairs{
+  background-image: url("../img/klairs1.jpeg");
+}
+
+.klairs:hover{
+  background-image: url("../img/klairs2.png");
+}
+
+.moisturizer{
+  background-image: url("../img/moisturizer1.jpg");
+}
+
+.moisturizer:hover{
+  background-image: url("../img/moisturizer2.jpg");
+}
+
+.sunscreen{
+  background-image: url("../img/sunscreen1.jpg");
+}
+
+.sunscreen:hover{
+  background-image: url("../img/sunscreen2.jpg");
+}
+
+.serum{
+  background-image: url("../img/waterserum1.jpg");
+}
+
+.serum:hover{
+  background-image: url("../img/waterserum2.jpg");
 }
 
 nav{
