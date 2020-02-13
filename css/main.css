@@ -282,7 +282,7 @@ input[type=submit]:hover{
   padding:1rem;
   margin-top:2rem;
   width:65%;
-  border:1px solid;
+  /* border:1px solid; */
   /* justify-content: center; */
   position:relative;
   transform: translate(-50%,0);
