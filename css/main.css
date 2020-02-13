@@ -294,7 +294,7 @@ input[type=submit]:hover{
 }
 
 .cards:hover{
-  border-bottom: solid black 1.25px;
+  border-bottom: solid 1.25px;
 }
 
 #product{
