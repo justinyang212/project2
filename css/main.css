@@ -26,17 +26,17 @@ background-color: white;
 padding:0.5em 0em  0.2em 0em;
 }
 
-#navigation{
+/* #navigation{
   padding-left: 1rem;
 
-}
+} */
 
 /* company nav */
-header{
+/* header{
   display:flex;
   align-items: baseline;
   justify-content: space-between;
-}
+} */
 
 #icon{
 background-image: url("../img/Asset9.png");
@@ -105,14 +105,14 @@ background-image: url("../img/cleanser2.jpg");
   background-image: url("../img/waterserum2.jpg");
 }
 
-nav{
+/* nav{
   display:flex;
   justify-content:flex-end;
   align-items: center;
 
-}
+} */
 
-nav a{
+/* nav a{
 
   font-family:bodyFont;
   font-size:15px;
@@ -123,11 +123,11 @@ nav a{
   color: black;
   transition:0.3s;
 
-}
+} */
 
-nav a:hover, nav a:focus {
+/* nav a:hover, nav a:focus {
  border-bottom: 0.5px solid;
-}
+} */
 
 /* In-text link styling */
 .text-link{

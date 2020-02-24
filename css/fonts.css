@@ -64,9 +64,9 @@ p {
   margin:1rem;
   width:50%;
 }
-#logo{
+.logo{
   font-family: graceCo;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   /* text-align: center; */
 }
 

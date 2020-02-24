@@ -1,0 +1,32 @@
+.logo{
+text-align: center;
+padding: 0 1rem 1rem 1rem;
+border: 1px solid;
+}
+
+.navigation{
+  /* display:flex; */
+  /* margin:0; */
+
+  align-items: baseline;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+nav a{
+  display:inline;
+  font-family:bodyFont;
+  font-size:15px;
+  margin:0 1rem 0 1rem;
+  padding-bottom:0.5em;
+
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition:0.3s;
+}
+
+
+  nav a:hover, nav a:focus {
+   border-bottom: 1px solid;
+  }
