@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
 html{
 background-color: white;
 }
@@ -138,7 +142,6 @@ border-bottom: 1px solid;
 }
 
 .text-link:hover, .text-link:focus{
-  color: rgb(55,98,48);
 
   border-bottom: 1px solid;
 
@@ -337,25 +340,8 @@ width:50%;
   margin-left: 3rem;
 }
 
-#checkout{
-  margin-top: 1rem;
-  width: 100%;
-}
-#total{
-  font-size: 14px;
-  font-weight: bold;
-}
-#head2{
-  margin-left:0;
-}
-#address, #cardinfo{
-  margin-right: 2rem;
-}
 
 
-/* .product{
-  width:50%;
-} */
 
 
 /* Multiple Product Listing */
@@ -442,5 +428,10 @@ padding-left: 2rem;
 .direct:hover, .direct:focus {
   background-color: black;
   color:white;
+
+}
+
+.sum2{
+width:50%;
 
 }

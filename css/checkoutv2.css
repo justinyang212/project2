@@ -1,7 +1,10 @@
 
-
+.checkoutlogo{
+  font-family: graceCo;
+  text-align:center;
+}
 .checkout{
-margin-top: 3rem;
+margin-top: 2rem;
 align-content:center;
 justify-content: center;
 display:grid;
@@ -10,10 +13,16 @@ grid-template-columns: 2fr 1fr;
 
 }
 
+.part1{
+  border: 1px solid;
+  padding-left:2rem;
+  padding-right:2rem;
+  margin-bottom:1rem;
+}
 .payment{
-  padding-left:5rem;
-  padding-right: 5rem;
-  /* border: 1px solid; */
+  padding-left:3rem;
+  padding-right: 3rem;
+
 
 }
 .summary{
@@ -113,8 +122,9 @@ padding-top:2rem;
 }
 
 .check-heading{
-
+  margin-bottom:3rem;
   border-bottom:1px solid;
+
 }
 
 .checkimg{
