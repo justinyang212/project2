@@ -514,6 +514,6 @@ border-bottom: solid 1px black;
   .card{
     flex-wrap:wrap;
     margin-left:0;
-    width: 100%
-
+    width: 100%;
   }
+}
