@@ -33,7 +33,7 @@ font-weight: normal;
 }
 /* headers */
 h2 {
-  font-family: bolded;
+  /* font-family: bolded; */
   /* margin-left: 2rem; */
 
 }
@@ -70,6 +70,10 @@ p {
   /* text-align: center; */
 }
 
+#productbrand{
+  font-family: graceCo;
+}
+
 br{
   line-height: 20px;
 }
@@ -83,4 +87,10 @@ p a{
 span.price{
   float:right;
   font-size:14px;
+}
+
+#relatedheader{
+  font-family: graceCo;
+  font-size: 30px;
+  padding-left: 2rem;
 }
