@@ -2,9 +2,13 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-
+a{
+  text-decoration:none;
+  color:black;
+}
 html{
 background-color: white;
+
 }
 
 .element {
@@ -156,8 +160,8 @@ border-bottom: 1px solid;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   color: white;
-  border: 1.5px solid rgb(0,78,26);
-  background-color: rgb(0,78,26);
+  border: 1.5px solid #343434;
+  background-color: #343434;
 
   text-decoration: none;
   transition-duration: 0.6s;
@@ -165,9 +169,9 @@ border-bottom: 1px solid;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: rgb(28,51,23);
+  background-color: black;
   color:white;
-  border: 1.5px solid rgb(28,51,23);
+  border: 1.5px solid black;
 }
 button{
   display: inline-block;
