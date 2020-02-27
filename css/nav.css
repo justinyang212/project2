@@ -1,0 +1,68 @@
+.logo{
+text-align: center;
+/* padding: 0 1rem 1rem 1rem; */
+
+}
+
+
+header{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+
+.navigation{
+  align-items: baseline;
+  text-align: center;
+
+
+}
+
+nav a{
+  display:inline;
+  font-family:bodyFont;
+  font-size:15px;
+  margin:0 1rem 0 1rem;
+  padding-bottom:0.5em;
+
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition:0.3s;
+}
+
+
+  nav a:hover, nav a:focus {
+   border-bottom: 1px solid;
+  }
+
+
+.cart-icon{
+  margin-right:2rem;
+  width:30px;
+  height:30px;
+  background-color:#343434;
+  color:white;
+  border:none;
+  border-radius: 50%;
+  font-family:bolded;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.cart-icon:hover, .cart-icon:focus{
+  background-color:black;
+}
+
+.search-icon{
+  width: 30px;
+  height: 30px;
+  padding-left: 2rem;
+  color: red;
+}
+.search-icon:hover{
+
+}
