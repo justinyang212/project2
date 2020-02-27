@@ -354,15 +354,7 @@ width:50%;
 #address, #cardinfo{
   margin-right: 2rem;
 }
-.payment_form .payment{
-  width: 100%;
-  margin-right:2rem;
-  /* flex-grow:1; */
-}
 
-.payment_form{
-  display:flex;
-}
 
 /* .product{
   width:50%;
