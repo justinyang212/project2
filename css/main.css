@@ -399,10 +399,88 @@ text-align: center;
 .about{
   margin-top:3rem;
   margin-right:2rem;
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 3rem;
+  display:flex;
+  flex-grow:1;
+  flex-shrink:1;
+
+  justify-content: center;
+  align-content: center;
+  margin-left:5em;
+  margin-right:5em;
+}
+
+@media screen and (max-width:50rem){
+  .about{
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+  }
+
+.about-img-container{
+  display:block;
+  justify-content:center;
+  align-content:center;
+  align-items: center;
+  text-align:center;
+}
+
+
+}
+
+.about-info{
+  text-align:center;
+  margin-left:3em;
+}
+
+.about-descr{
+  text-align:justify;
+}
+
+.about-img{
+  height:30em;
+  width:20em;
+  object-fit: cover;
+
 }
 #form-review{
   width:100%;
+}
+
+
+.contact{
+  text-align:center;
+  margin-top:5em;
+  /* margin-left:5em;
+  margin-right:5em; */
+  align-content: center;
+  align-items: center;
+  justify-content:center;
+}
+
+.form{
+  display:inline-block;
+  margin-top:2em;
+width:50%;
+align-content: center;
+align-items: center;
+justify-content:center;
+}
+
+.contact-heading{
+  margin-left:2em;
+  margin-right:2em;
+}
+
+.submit-button{
+  margin-top:3em;
+  display:inline-block;
+justify-content:center;
+align-content: center;
+align-items: center;
+}
+
+.btn{
+  text-align:center;
+  padding-left:5em;
+  padding-right:5em;
 }
