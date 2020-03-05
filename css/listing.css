@@ -512,7 +512,10 @@ border-bottom: solid 1px black;
 
 @media screen and (max-width:600px){
   .card{
-    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    margin:0;
+    padding:0;
     margin-left:0;
     width: 100%;
   }
