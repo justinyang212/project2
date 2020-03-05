@@ -14,10 +14,7 @@ background-color: white;
 .indexheader{
   justify-content: center;
 }
-.checkoutlogo{
-  text-align: center;
-  display: flex;
-}
+
 
 .element {
   padding-left: 1rem;
@@ -351,7 +348,7 @@ justify-content: space-around;
 padding-left: 2rem;
 }
 
-@media screen and (max-width:35rem){
+@media screen and (max-width:375px){
   .listing{
     grid-template-columns:1fr;
   }
@@ -409,11 +406,17 @@ text-align: center;
   margin-right:5em;
 }
 
-@media screen and (max-width:50rem){
+@media screen and (max-width:375px){
   .about{
     flex-direction:column;
     justify-content: center;
     align-content: center;
+    margin:0;
+    padding:0;
+  }
+
+  .about-info{
+  margin-left:1.5em;
   }
 
 .about-img-container{
@@ -422,15 +425,17 @@ text-align: center;
   align-content:center;
   align-items: center;
   text-align:center;
+  /* margin:0; */
 }
-
-
 }
-
 .about-info{
   text-align:center;
   margin-left:3em;
 }
+
+
+
+
 
 .about-descr{
   text-align:justify;
