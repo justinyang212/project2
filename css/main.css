@@ -229,19 +229,19 @@ input[type=submit]:hover{
 
 
 /* PRODUCT DETAILED */
-.card{
+/* .card{
   display:flex;
   padding:1rem;
   margin-top:2rem;
   width:65%;
-  /* border:1px solid; */
-  /* justify-content: center; */
+  border:1px solid;
+  justify-content: center;
   position:relative;
   transform: translate(-50%,0);
   left:50%;
-}
+} */
 
-@media screen and (max-width:375px){
+/* @media screen and (max-width:375px){
   .card{
     flex-direction: column;
     padding:0;
@@ -251,7 +251,7 @@ input[type=submit]:hover{
     width:100%;
 
   }
-}
+} */
 
 .cards{
   padding-bottom: 0.2rem;
@@ -261,7 +261,7 @@ input[type=submit]:hover{
   border-bottom: solid 1.25px;
 }
 
-#product{
+/* #product{
 width:50%;
   padding-top: 1.5rem;
   padding-right: 1em;
@@ -271,7 +271,7 @@ width:50%;
 
 #info{
 width:50%;
-}
+} */
 
 #add{
   margin-top: 2em;
