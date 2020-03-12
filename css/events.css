@@ -6,6 +6,9 @@
 .largearticle{
   width: 50%;
   margin: 2rem;
+}
+
+.largearticle:hover{
   border-bottom: black solid 2px;
 }
 
@@ -26,6 +29,9 @@
 .smallarticle{
   width:33%;
   margin: 2rem;
+}
+
+.smallarticle:hover{
   border-bottom: black solid 2px;
 }
 
