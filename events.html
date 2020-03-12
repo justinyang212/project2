@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>IAT 339 Style Guide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="css/main.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
@@ -15,11 +17,13 @@
 
   <header>
     <img class="search-icon" src="img/search.svg" alt="search icon">
+    <a href="index.html">
     <h1 class="logo">sweetener</h1>
+  </a>
 
-    <form action="checkoutV2.html">
-        <button class="cart-icon"> 2 </button>
-    </form>
+<form action="checkoutV2.html">
+    <button class="cart-icon"> 2 </button>
+</form>
 
 </header>
 
@@ -35,16 +39,16 @@
 
     </div>
 
-    <div class="navigation">
-          <nav>
-            <a href="home.html">Home</a>
-            <a href="#about_company">News</a>
-            <a href="listings.html">Shop all</a>
-
-            <a href="about.html"> About us </a>
-            <a href="contact.html">Contact</a>
-          </nav>
-        </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myNav");
+      if (x.className === "navigation") {
+        x.className += " responsive";
+      } else {
+        x.className = "navigation";
+      }
+    }
+    </script>
 
 <div id="onlylargearticles">
   <div class = "largearticle">
@@ -121,7 +125,6 @@
 <div class="support1">
 <p> support@sweetener.com </p>
 <p> (604)-684-3730 </p>
-</div>
 </div>
 </div>
 </div>
