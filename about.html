@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <title>IAT 339 Style Guide</title>
 
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
@@ -21,16 +23,28 @@
 
 </header>
 
-    <div class="navigation">
-          <nav>
-            <a href="home.html">Home</a>
-            <a href="events.html">News</a>
-            <a href="listings.html">Shop all</a>
+<div class="navigation" id="myNav">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+          <a href="home.html">Home</a>
+        <a href="events.html">New</a>
+        <a href="listings.html">Shop all</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
 
-            <a href="about.html"> About us </a>
-            <a href="contact.html">Contact</a>
-          </nav>
-        </div>
+    </div>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myNav");
+      if (x.className === "navigation") {
+        x.className += " responsive";
+      } else {
+        x.className = "navigation";
+      }
+    }
+    </script>
 
 <div class="about">
 
@@ -78,9 +92,10 @@
 <p> <b> phone </b> </p>
 </div>
 
-<div> class="support1" </div>
+<div class="support1" >
 <p> support@sweetener.com </p>
 <p> (604)-684-3730 </p>
+</div>
 </div>
 </div>
 </div>
