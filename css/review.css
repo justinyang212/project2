@@ -4,11 +4,6 @@
   margin-top:0rem;
 }
 
-#reviewtitle{
-}
-
-
-
 #review{
   padding:5rem;
   width:50%;
@@ -16,4 +11,14 @@
 
 #name{
 width: 20%;
+}
+
+@media screen and (max-width:600px){
+  #review{
+    width: 100%;
+  }
+
+  #name{
+    width:100%;
+  }
 }
