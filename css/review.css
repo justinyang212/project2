@@ -1,0 +1,19 @@
+#mainreviewsection{
+  border-top: 1px black solid;
+  margin: 5rem;
+  margin-top:0rem;
+}
+
+#reviewtitle{
+}
+
+
+
+#review{
+  padding:5rem;
+  width:50%;
+}
+
+#name{
+width: 20%;
+}
