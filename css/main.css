@@ -463,6 +463,8 @@ text-align: center;
 
 .about-descr{
   text-align:justify;
+  font-size: 16px;
+  line-height:120%;
 }
 
 .about-img{
@@ -517,6 +519,7 @@ align-items: center;
 
 /* FOOTER */
 footer{
+  margin-top: 2rem;
   padding-top:2em;
   padding-bottom:2em;
   border-top: 0.25px solid black ;
@@ -563,4 +566,8 @@ li:hover{
   .column3{
     padding-left:3em;
   }
+}
+
+#relatedsection{
+  padding-bottom:1rem;
 }
