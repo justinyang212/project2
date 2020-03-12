@@ -7,7 +7,9 @@
 } */
 .checkoutlogo{
   font-family: graceCo;
+  display:block;
   text-align:center;
+  justify-content: center;
 }
 .checkout{
 margin-top: 2rem;

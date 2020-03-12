@@ -462,7 +462,7 @@ text-align: center;
 
 
 .about-descr{
-  text-align:justify;
+  text-align:left;
   font-size: 16px;
   line-height:120%;
 }
