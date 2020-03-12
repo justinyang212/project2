@@ -12,11 +12,11 @@
   border-bottom: black solid 2px;
 }
 
-#largearticleheader{
+.largearticleheader{
   font-size: 20px;
 }
 
-#largearticletitle{
+.largearticletitle{
   margin-top: -.2rem;
   font-size: 30px;
 }
@@ -35,11 +35,11 @@
   border-bottom: black solid 2px;
 }
 
-#smallarticleheader{
+.smallarticleheader{
   font-size: 15px;
 }
 
-#smallarticletitle{
+.smallarticletitle{
   margin-top: -.2rem;
   font-size: 20px;
 }
@@ -67,7 +67,7 @@
     font-size: 20px;
   }
 
-  #smallarticletitle{
+  .smallarticletitle{
     margin-top: -.2rem;
     font-size: 30px;
   }
